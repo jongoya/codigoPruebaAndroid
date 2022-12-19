@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">sae</string>
+    <string name="home">Home</string>
+    <string name="l_neas">Líneas</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="c_mo_llegar">Cómo llegar</string>
+    <string name="m_s">Más</string>
+</resources>

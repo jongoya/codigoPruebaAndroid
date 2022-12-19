@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sae.iml" filepath="$PROJECT_DIR$/.idea/modules/sae.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/sae.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/sae.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/sae.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/sae.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/sae.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/sae.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/sae.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/sae.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/sae.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/sae.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/sae.data.main.iml" filepath="$PROJECT_DIR$/.idea/modules/data/sae.data.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/sae.data.test.iml" filepath="$PROJECT_DIR$/.idea/modules/data/sae.data.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/sae.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/sae.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/sae.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/sae.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/sae.domain.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/sae.domain.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usecases/sae.usecases.iml" filepath="$PROJECT_DIR$/.idea/modules/usecases/sae.usecases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usecases/sae.usecases.main.iml" filepath="$PROJECT_DIR$/.idea/modules/usecases/sae.usecases.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usecases/sae.usecases.test.iml" filepath="$PROJECT_DIR$/.idea/modules/usecases/sae.usecases.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/launchScreenFragment">
+
+    <fragment
+        android:id="@+id/launchScreenFragment"
+        android:name="com.geoactio.sae.fragments.launchScreen.LaunchScreenFragment"
+        android:label="launch_screen_fragment"
+        tools:layout="@layout/launch_screen_fragment" >
+        <action
+            android:id="@+id/action_launchScreenFragment_to_mainTabFragment"
+            app:destination="@id/mainTabFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainTabFragment"
+        android:name="com.geoactio.sae.fragments.mainTabFragment.MainTabFragment"
+        android:label="main_tab_fragment"
+        tools:layout="@layout/main_tab_fragment" />
+    <fragment
+        android:id="@+id/trayectosFragment"
+        android:name="com.geoactio.sae.fragments.trayectos.TrayectosFragment"
+        android:label="trayectos_fragment"
+        tools:layout="@layout/trayectos_fragment" >
+        <action
+            android:id="@+id/action_trayectosFragment_to_paradasFragment"
+            app:destination="@id/paradasFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/paradasFragment"
+        android:name="com.geoactio.sae.fragments.paradas.ParadasFragment"
+        android:label="paradas_fragment"
+        tools:layout="@layout/paradas_fragment" >
+        <argument
+            android:name="trayecto"
+            app:argType="com.geoactio.domain.Trayecto" />
+        <argument
+            android:name="linea"
+            app:argType="com.geoactio.domain.Linea" />
+        <action
+            android:id="@+id/action_paradasFragment_to_fichaParadaFragment"
+            app:destination="@id/fichaParadaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/fichaParadaFragment"
+        android:name="com.geoactio.sae.fragments.fichaParada.FichaParadaFragment"
+        android:label="ficha_parada_fragment"
+        tools:layout="@layout/ficha_parada_fragment" >
+        <argument
+            android:name="parada"
+            app:argType="com.geoactio.domain.Parada" />
+    </fragment>
+</navigation>

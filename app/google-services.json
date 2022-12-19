@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "600190403553",
+    "project_id": "sae-v2",
+    "storage_bucket": "sae-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600190403553:android:db656d85f4cd385cf1c8a0",
+        "android_client_info": {
+          "package_name": "com.geoactio.sae"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600190403553-uubctv5eq3mq2fd58qv86p8370hr6h1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn3FEe3mg-sHngjnUgpS4KP_-G_blMPfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600190403553-uubctv5eq3mq2fd58qv86p8370hr6h1m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "600190403553-1etvs6lcdko1k6vobm0ms54t6hhl93gq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.geoactio.sae"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

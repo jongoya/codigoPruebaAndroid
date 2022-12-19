@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/lineas"
+        android:title="@string/l_neas"
+        android:icon="@drawable/lineas"/>
+    <item
+        android:id="@+id/favoritos"
+        android:title="@string/favoritos"
+        android:icon="@drawable/estrella"/>
+    <item
+        android:id="@+id/como_llegar"
+        android:title="@string/c_mo_llegar"
+        android:icon="@drawable/como"/>
+    <item
+        android:id="@+id/mas"
+        android:title="@string/m_s"
+        android:icon="@drawable/mas"/>
+</menu>
